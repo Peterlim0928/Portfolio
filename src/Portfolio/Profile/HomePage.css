@@ -1,0 +1,48 @@
+#main {
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+@media (max-width: 512px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 0.875rem;
+	}
+}
+
+@media (max-width: 384px) {
+	h1 {
+		font-size: 1.25rem;
+	}
+
+	p {
+		font-size: 0.75rem;
+	}
+}
+
+.intro {
+	height: 100%;
+}
+
+.profile-picture {
+	height: 100%;
+	width: 100%;
+	max-width: 400px;
+	object-fit: contain;
+}
+
+.project-highlight-container {
+	background-color: rgb(245, 245, 245);
+	padding: 5vw 10vw;
+}
+
+.link-button {
+	min-width: 240px;
+}
