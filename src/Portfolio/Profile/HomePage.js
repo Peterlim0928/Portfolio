@@ -25,11 +25,13 @@ function HomePage() {
               University Malaysia with a strong passion for web development,
               algorithms, and data structures. As a dedicated Full Stack
               Developer, I have experience in creating robust web applications
-              using HTML, CSS, JavaScript and React. My recent internship
-              allowed me to work on diverse projects, enhancing my proficiency
-              in designing and implementing efficient and scalable solutions. I
-              am eager to contribute my technical expertise to innovative teams
-              and exciting projects.
+              using HTML, CSS, JavaScript and React.
+            </p>
+            <p>
+              My recent internship allowed me to work on diverse projects,
+              enhancing my proficiency in designing and implementing efficient
+              and scalable solutions. I am eager to contribute my technical
+              expertise to innovative teams and exciting projects.
             </p>
           </div>
         </div>
@@ -75,9 +77,21 @@ function HomePage() {
             Interested in discussing a project or collaboration? Feel free to
             contact me using any of the methods below.
           </p>
-          <LinkButton name="EMAIL" icon={faEnvelope} link="mailto:limjiantao@gmail.com"/>
-          <LinkButton name="GITHUB" icon={faGithub} link="https://github.com/Peterlim0928"/>
-          <LinkButton name="LINKEDIN" icon={faLinkedin} link="https://www.linkedin.com/in/jian-tao-lim-70a177290/"/>
+          <LinkButton
+            name="EMAIL"
+            icon={faEnvelope}
+            link="mailto:limjiantao@gmail.com"
+          />
+          <LinkButton
+            name="GITHUB"
+            icon={faGithub}
+            link="https://github.com/Peterlim0928"
+          />
+          <LinkButton
+            name="LINKEDIN"
+            icon={faLinkedin}
+            link="https://www.linkedin.com/in/jian-tao-lim-70a177290/"
+          />
         </div>
       </div>
     </div>
