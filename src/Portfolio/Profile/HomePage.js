@@ -4,6 +4,7 @@ import LinkButton from "../Utils/LinkButton";
 import ProjectHighlight from "./ProjectHighlight";
 import profile from "../img/my-picture.jpg";
 import default_img from "../img/default-img.jpg";
+import tetris_preview from "../img/tetris-preview.png";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -52,8 +53,11 @@ function HomePage() {
         <ProjectHighlight
           id="01"
           title="Tetris clone"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          img={default_img}
+          desc="A simplified version of the classic Tetris game, featuring minimal 
+          UI and basic controls. Developed with JavaScript and RxJS, this project 
+          demonstrates effective management of game states and logic, providing a 
+          functional gameplay experience."
+          img={tetris_preview}
         />
         {/* <ProjectHighlight
           id="02"
