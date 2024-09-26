@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css'
+import { Link } from 'react-router-dom';
 
 function NavBar() {
 	return (
@@ -6,14 +6,14 @@ function NavBar() {
 			<div className="navbar-brand mx-3">Peterlim's Portfolio</div>
 			<ul className="navbar-nav">
 				<li className="nav-item">
-					<a className="nav-link" href="/">Profile</a>
+					<Link className="nav-link" to="/">Profile</Link>
 				</li>
 				<li className="nav-item">
-					<a className="nav-link" href="/project">Project</a>
+					<Link className="nav-link" to="/project">Project</Link>
 				</li>
 			</ul>
 		</nav>
-	)
+	);
 }
 
-export default NavBar
+export default NavBar;
