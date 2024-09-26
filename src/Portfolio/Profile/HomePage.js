@@ -17,7 +17,7 @@ function HomePage() {
 
   return (
     <div className="container-fluid p-0" id="main">
-      <div className="row m-5 px-5 d-flex">
+      <div className="row px-5 d-flex">
         <div className="col-md-6 col-12 py-2">
           <div className="p-3 d-flex flex-column justify-content-center intro">
             <h1>Peter Lim Jian Tao</h1>
@@ -43,36 +43,21 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="row my-5 project-highlight-container">
-        <div className="d-flex justify-content-between align-items-center">
+      <div className="row mt-5 project-highlight-container">
+        <div className="col-12 p-0 d-flex justify-content-between align-items-center">
           <h2>Highlighted Projects</h2>
-          <button type="button" onClick={projectOnClick}>
+          <button className="project-button" type="button" onClick={projectOnClick}>
             ALL PROJECTS
           </button>
         </div>
-        <ProjectHighlight
-          id="01"
-          title="Tetris clone"
-          desc="A simplified version of the classic Tetris game, featuring minimal 
-          UI and basic controls. Developed with JavaScript and RxJS, this project 
-          demonstrates effective management of game states and logic, providing a 
-          functional gameplay experience."
-          img={tetris_preview}
-        />
-        {/* <ProjectHighlight
-          id="02"
-          title="Self-shifting maze"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          img={default_img}
-          flip={true}
-        />
-        <ProjectHighlight
-          id="03"
-          title="Title of the project"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          img={default_img}
-        /> */}
       </div>
+      <ProjectHighlight
+        id="01"
+        title="Tetris clone"
+        desc="A simplified version of the classic Tetris game, featuring minimal UI and basic controls. Developed with JavaScript and RxJS, this project demonstrates effective management of game states and logic, providing a functional gameplay experience."
+        img={tetris_preview}
+      />
+      {/* Additional ProjectHighlights can go here */}
 
       <div className="row m-5">
         <div className="d-flex flex-column align-items-center contact-container">

@@ -9,7 +9,7 @@ function ProjectHighlight({ id, title, desc, img, link, flip = false }) {
   };
 
   return (
-    <div className="row my-5">
+    <div className="row mb-5 project-highlight-container">
       <div className={`d-none d-md-block col-md-6 px-4 order-${flip ? 2 : 1}`}>
         <p className="project-id">{id}</p>
         <p className="project-title">{title}</p>
