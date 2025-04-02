@@ -3,7 +3,6 @@ import "./HomePage.css";
 import LinkButton from "../Utils/LinkButton";
 import ProjectHighlight from "./ProjectHighlight";
 import profile from "../img/my-picture.jpg";
-import default_img from "../img/default-img.jpg";
 import tetris_preview from "../img/tetris-preview.png";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
