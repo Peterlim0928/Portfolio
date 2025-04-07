@@ -22,9 +22,13 @@ function Project({ title, desc, index, link }) {
   const isLight = Math.ceil(index * (isMdOrLarger ? 0.5 : 1)) % 2 === 0;
 
   return (
-    <div className={`col-12 col-md-6 p-5 project-container ${isLight ? "background-light" : "background-dark"}`}>
+    <div
+      className={`col-12 col-md-6 p-5 project-container ${
+        isLight ? "background-light" : "background-dark"
+      }`}
+    >
       <p className="project-title">{title}</p>
-      <p className="project-desc mb-5">{desc}</p>
+      <div className="project-desc mb-5">{desc}</div>
       <button onClick={() => window.open(link)}>GO TO</button>
     </div>
   );
